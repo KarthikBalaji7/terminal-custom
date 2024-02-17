@@ -3,8 +3,7 @@
 if [ $(uname)="Linux" ]
 then 
 	echo "Running Linux"
-	#font_dir="$HOME/.local/share/fonts"
-	font_dir="$HOME/bashTest/fontInstall/fonts"
+	font_dir="$HOME/.local/share/fonts"
 else 
 	echo "Running Mac"
 	font_dir="$HOME/Library/Fonts"
